@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding:0;
+}
+
+body {
+display: flex;
+flex-direction: column;
+height: 175vh;
+overflow: auto;
+}
+
+.section_1{
+  display: flex;
+  padding-right: 15%;
+  padding-left: 15%;
+  row-gap: 80px;
+  flex: 1;
+  background-color: #1f2937;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+}
+
+.section_1, .section_2, .section_3, .section_4{
+  display: flex;
+  padding-right: 15%;
+  padding-left: 15%;
+  min-height: 25%;
+  row-gap: 80px;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.Top_Bar, .Hero_Section{
+  display: flex;
+  flex: 1 0 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Top_Bar_Right ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+#Header_Logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+a:link, a:visited{
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.Hero_Right_Side {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  flex: 1 0 1;
+  height: 200px;
+  row-gap: 10px;
+}
+
+.Hero_Right_Side h1 {
+  padding-right: 150px;
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+
+.Hero_Right_Side p {
+  padding-right: 80px;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.Hero_Right_Side button {
+  padding: 7px 1em;
+    width: 90px;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+.Hero_Left_Side {
+  height: 200px;
+  width: 500px;
+  text-align: center;
+  align-content: center;
+  background-color: gainsboro;
+}
+
+.Hero_Left_Side p {
+color: white;
+}
